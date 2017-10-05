@@ -1,28 +1,29 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-![phone4](https://user-images.githubusercontent.com/7928001/31223370-65a6ecda-a95d-11e7-8d4a-ed085a69e722.png)
+## Check Out More Of The Tutorial [Here]()
 
-## Check Out The Tutorial [Here]()
+### Create An account With [Paystack](https://paystack.com/), Copy Your PkText key 
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+# Paste The below code in config.xml file at android Platform tag `<platform>add here</platform>` and replace 'INSERT-PUBLIC-KEY-HERE' with your public key.
 
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
+<preference name="android-minSdkVersion" value="16" />
+    <config-file target="AndroidManifest.xml" parent="application">
+      	<meta-data android:name="co.paystack.android.PublicKey" android:value="INSERT-PUBLIC-KEY-HERE"/>
+    </config-file>
 ```
-
-Then, to run it, cd into `myBlank` and run:
+### Install:
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$npm install
 ```
+Then Install The Custom config cordova plugin, to automatically edit the configuration files in the `platforms/ directory`, You can Find Out More [here](https://github.com/dpa99c/cordova-custom-config#overview)
 
-Substitute ios for android if not on a Mac.
+```bash
+$ cordova plugin add cordova-custom-config
+```
+###Afterwards Install cordova plugin paystack.
 
+```bash
+$ cordova plugin add cordova-plugin-paystack
+```
