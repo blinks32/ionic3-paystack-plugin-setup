@@ -1,0 +1,26 @@
+{
+    "onesignal-cordova-plugin": {
+        "source": {
+            "type": "registry",
+            "id": "onesignal-cordova-plugin"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-custom-config": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-custom-config"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-paystack": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-paystack"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

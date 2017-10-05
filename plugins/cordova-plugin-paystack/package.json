@@ -1,0 +1,68 @@
+{
+  "_from": "cordova-plugin-paystack",
+  "_id": "cordova-plugin-paystack@3.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-NsdAjjuKrUPHuxx8643kV0Y7n28=",
+  "_location": "/cordova-plugin-paystack",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-paystack",
+    "name": "cordova-plugin-paystack",
+    "escapedName": "cordova-plugin-paystack",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-paystack/-/cordova-plugin-paystack-3.1.0.tgz",
+  "_shasum": "36c7408e3b8aad43c7bb1c7ceb8de457463b9f6f",
+  "_spec": "cordova-plugin-paystack",
+  "_where": "C:\\Users\\pc\\OneDrive\\projectX\\node_modules",
+  "author": {
+    "name": "Tolu Olowu",
+    "url": "Arttitude360"
+  },
+  "bugs": {
+    "url": "https://github.com/tolu360/cordova-plugin-paystack/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-paystack",
+    "platforms": [
+      "android",
+      "ecosystem:cordova",
+      "cordova-android",
+      "ios",
+      "cordova-ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "This plugin allows to add Paystack Payments to your application using Paystack Native Mobile Android and iOS SDKs",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/tolu360/cordova-plugin-paystack#readme",
+  "keywords": [
+    "paystack",
+    "sdk",
+    "payments",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-paystack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolu360/cordova-plugin-paystack.git"
+  },
+  "version": "3.1.0"
+}
