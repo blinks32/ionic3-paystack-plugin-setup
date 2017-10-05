@@ -1,5 +1,7 @@
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
+![phone4](https://user-images.githubusercontent.com/7928001/31223370-65a6ecda-a95d-11e7-8d4a-ed085a69e722.png)
+
 ## Check Out The Tutorial [Here]()
 
 *This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
