@@ -4,7 +4,7 @@
 ### Create An account With [Paystack](https://paystack.com/), Copy Your PkText key 
 
 
-# Paste The below code in config.xml file at android Platform tag `<platform>add here</platform>` and replace 'INSERT-PUBLIC-KEY-HERE' with your public key.
+Paste The below code in config.xml file at android Platform tag `<platform>add here</platform>` and replace 'INSERT-PUBLIC-KEY-HERE' with your public key.
 
 ```bash
 <preference name="android-minSdkVersion" value="16" />
