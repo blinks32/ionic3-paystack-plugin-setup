@@ -3,6 +3,7 @@
 
 ### Create An account With [Paystack](https://paystack.com/), Copy Your PkText key 
 
+![screenshot](https://user-images.githubusercontent.com/7928001/31224834-d0407caa-a962-11e7-854e-77aa34af3fe8.png)
 
 Paste The below code in config.xml file at android Platform tag `<platform>add here</platform>` and replace 'INSERT-PUBLIC-KEY-HERE' with your public key.
 
