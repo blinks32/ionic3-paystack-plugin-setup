@@ -5,7 +5,7 @@
 
 ![screenshot](https://user-images.githubusercontent.com/7928001/31224834-d0407caa-a962-11e7-854e-77aa34af3fe8.png)
 
-Paste The below code in config.xml file at android Platform tag `<platform>add here</platform>` and replace 'INSERT-PUBLIC-KEY-HERE' with your public key.
+Paste The below code in config.xml file in the android Platform tag `<platform>add here</platform>` and replace 'INSERT-PUBLIC-KEY-HERE' with your public key.
 
 ```bash
 <preference name="android-minSdkVersion" value="16" />
@@ -13,7 +13,7 @@ Paste The below code in config.xml file at android Platform tag `<platform>add h
       	<meta-data android:name="co.paystack.android.PublicKey" android:value="INSERT-PUBLIC-KEY-HERE"/>
     </config-file>
 ```
-### Install:
+### Installation:
 
 ```bash
 $npm install
@@ -23,7 +23,7 @@ Then Install The Custom config cordova plugin, to automatically edit the configu
 ```bash
 $ cordova plugin add cordova-custom-config
 ```
-###Afterwards Install cordova plugin paystack.
+Afterwards Install cordova plugin paystack.
 
 ```bash
 $ cordova plugin add cordova-plugin-paystack
